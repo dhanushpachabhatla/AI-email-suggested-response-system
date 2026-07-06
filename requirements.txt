@@ -1,0 +1,34 @@
+# AI Email Response System - Dependencies
+
+# Core LLM and Embedding Libraries
+sentence-transformers>=2.2.2
+transformers>=4.30.0
+
+# Vector Database
+chromadb>=0.4.0
+
+# HTTP Client for LM Studio API
+requests>=2.31.0
+
+# Evaluation Metrics
+rouge-score>=0.1.2
+nltk>=3.8.0
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Configuration Management
+pyyaml>=6.0
+
+# Testing Framework
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Optional Cloud API Support
+openai>=1.0.0
+anthropic>=0.18.0
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.66.0
