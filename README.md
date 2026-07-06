@@ -257,9 +257,26 @@ hiver challenge/
 
 ## Running Tests
 
+Comprehensive test suite covering config management, dataset generation, evaluation metrics, and aggregation.
+
 ```bash
+# Run all tests with verbose output
 venv\Scripts\python.exe -m pytest tests/ -v
+
+# Quick run
+venv\Scripts\python.exe -m pytest tests/
+
+# With coverage
+venv\Scripts\python.exe -m pytest tests/ --cov=src --cov-report=term
 ```
+
+**Test Coverage:**
+- `test_config.py` — Config loading, validation, env overrides (27 tests)
+- `test_utils.py` — File I/O, logging, text processing, timers (31 tests)
+- `test_dataset.py` — Synthetic generation, validation, statistics (28 tests)
+- `test_evaluation.py` — Semantic similarity, LLM judge, aggregation, reporting (16 tests)
+
+**Total: 102 tests, all passing** ✓
 
 ---
 
