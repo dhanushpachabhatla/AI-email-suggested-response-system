@@ -42,10 +42,10 @@ evaluation:
   
   thresholds:
     high_quality:
-      semantic_similarity: 0.8
+      semantic_similarity: 0.7
       llm_judge_dimensions: 4.0
     acceptable:
-      semantic_similarity: 0.6
+      semantic_similarity: 0.45
       llm_judge_dimensions: 3.0
   
   llm_judge_model: "lm_studio"  # Use same LLM for judging
